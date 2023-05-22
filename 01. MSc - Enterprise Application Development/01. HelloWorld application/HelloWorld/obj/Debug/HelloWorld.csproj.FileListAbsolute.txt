@@ -1,0 +1,7 @@
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\bin\Debug\HelloWorld.exe
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\obj\Debug\HelloWorld.exe
+D:\MSc\Lectures\New folder\.net-practice\01. MSc - Enterprise Application Development\01. HelloWorld application\HelloWorld\obj\Debug\HelloWorld.pdb
