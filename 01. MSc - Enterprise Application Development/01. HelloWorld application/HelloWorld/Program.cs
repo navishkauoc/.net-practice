@@ -11,6 +11,10 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.Out.WriteLine("Hello World!");
+
+            String name = null;
+            name = Console.ReadLine();
+            Console.Out.WriteLine("Hello " + name);
         }
     }
 }
