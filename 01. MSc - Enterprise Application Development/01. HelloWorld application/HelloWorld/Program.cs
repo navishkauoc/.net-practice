@@ -18,7 +18,7 @@ namespace HelloWorld
 
             Person person = new Person();
             person.setName("Ghale");
-            Console.Out.WriteLine("Hello " + name + person.getName());
+            Console.Out.WriteLine("Hello " + name + " " + person.getName());
         }
     }
 
