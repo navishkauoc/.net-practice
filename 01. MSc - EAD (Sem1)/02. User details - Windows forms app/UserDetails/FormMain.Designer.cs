@@ -29,18 +29,20 @@ namespace UserDetails
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonEnterDetails = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.labelMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonEnterDetails
             // 
-            this.button1.Location = new System.Drawing.Point(560, 297);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Enter your details";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonEnterDetails.Location = new System.Drawing.Point(560, 297);
+            this.buttonEnterDetails.Name = "buttonEnterDetails";
+            this.buttonEnterDetails.Size = new System.Drawing.Size(123, 23);
+            this.buttonEnterDetails.TabIndex = 0;
+            this.buttonEnterDetails.Text = "Enter your details";
+            this.buttonEnterDetails.UseVisualStyleBackColor = true;
+            this.buttonEnterDetails.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -51,23 +53,34 @@ namespace UserDetails
             this.button2.Text = "Review your details";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // labelMessage
+            // 
+            this.labelMessage.AutoSize = true;
+            this.labelMessage.Location = new System.Drawing.Point(133, 73);
+            this.labelMessage.Name = "labelMessage";
+            this.labelMessage.Size = new System.Drawing.Size(0, 13);
+            this.labelMessage.TabIndex = 2;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelMessage);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonEnterDetails);
             this.Name = "FormMain";
             this.Text = "Your Details";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonEnterDetails;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label labelMessage;
     }
 }
 

@@ -12,9 +12,26 @@ namespace UserDetails
 {
     public partial class FormAddressDetails : Form
     {
-        public FormAddressDetails()
+
+        User user;
+        FormMain formMain;
+
+        public FormAddressDetails(FormMain mainForm)
         {
             InitializeComponent();
+            formMain = mainForm;
+        }
+
+        private void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            user = new User();
+            user.FirstName = this.textBoxFirstName.Text;
+            user.LastName = this.textBoxLastName.Text;
+            user.Address = this.textBoxAddress.Text;
+            user.City = this.textBoxCity.Text;
+            user.Postcode = this.textBoxPostCode.Text;
+            formMain.UpdateLabel("User successfully saved!");
+            this.Close();
         }
     }
 }

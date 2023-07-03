@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UserDetails
 {
-    public partial class FormMain : Form
+    public partial class FormSummary : Form
     {
-        public FormMain()
+        public FormSummary()
         {
             InitializeComponent();
         }

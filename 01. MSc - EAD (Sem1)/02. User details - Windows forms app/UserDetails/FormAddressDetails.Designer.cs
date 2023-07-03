@@ -35,7 +35,7 @@ namespace UserDetails
             this.labelCity = new System.Windows.Forms.Label();
             this.labelPostCode = new System.Windows.Forms.Label();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
-            this.textBoxSecondName = new System.Windows.Forms.TextBox();
+            this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.textBoxCity = new System.Windows.Forms.TextBox();
             this.textBoxPostCode = new System.Windows.Forms.TextBox();
@@ -94,12 +94,12 @@ namespace UserDetails
             this.textBoxFirstName.Size = new System.Drawing.Size(129, 20);
             this.textBoxFirstName.TabIndex = 5;
             // 
-            // textBoxSecondName
+            // textBoxLastName
             // 
-            this.textBoxSecondName.Location = new System.Drawing.Point(210, 113);
-            this.textBoxSecondName.Name = "textBoxSecondName";
-            this.textBoxSecondName.Size = new System.Drawing.Size(129, 20);
-            this.textBoxSecondName.TabIndex = 6;
+            this.textBoxLastName.Location = new System.Drawing.Point(210, 113);
+            this.textBoxLastName.Name = "textBoxLastName";
+            this.textBoxLastName.Size = new System.Drawing.Size(129, 20);
+            this.textBoxLastName.TabIndex = 6;
             // 
             // textBoxAddress
             // 
@@ -141,7 +141,7 @@ namespace UserDetails
             this.Controls.Add(this.textBoxPostCode);
             this.Controls.Add(this.textBoxCity);
             this.Controls.Add(this.textBoxAddress);
-            this.Controls.Add(this.textBoxSecondName);
+            this.Controls.Add(this.textBoxLastName);
             this.Controls.Add(this.textBoxFirstName);
             this.Controls.Add(this.labelPostCode);
             this.Controls.Add(this.labelCity);
@@ -163,7 +163,7 @@ namespace UserDetails
         private System.Windows.Forms.Label labelCity;
         private System.Windows.Forms.Label labelPostCode;
         private System.Windows.Forms.TextBox textBoxFirstName;
-        private System.Windows.Forms.TextBox textBoxSecondName;
+        private System.Windows.Forms.TextBox textBoxLastName;
         private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.TextBox textBoxCity;
         private System.Windows.Forms.TextBox textBoxPostCode;
