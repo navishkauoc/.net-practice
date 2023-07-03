@@ -36,9 +36,9 @@ namespace UserDetails
             this.labelPostCode = new System.Windows.Forms.Label();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
             this.textBoxSecondName = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxAddress = new System.Windows.Forms.TextBox();
+            this.textBoxCity = new System.Windows.Forms.TextBox();
+            this.textBoxPostCode = new System.Windows.Forms.TextBox();
             this.buttonSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -101,26 +101,26 @@ namespace UserDetails
             this.textBoxSecondName.Size = new System.Drawing.Size(129, 20);
             this.textBoxSecondName.TabIndex = 6;
             // 
-            // textBox1
+            // textBoxAddress
             // 
-            this.textBox1.Location = new System.Drawing.Point(210, 139);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(129, 20);
-            this.textBox1.TabIndex = 7;
+            this.textBoxAddress.Location = new System.Drawing.Point(210, 139);
+            this.textBoxAddress.Name = "textBoxAddress";
+            this.textBoxAddress.Size = new System.Drawing.Size(129, 20);
+            this.textBoxAddress.TabIndex = 7;
             // 
-            // textBox2
+            // textBoxCity
             // 
-            this.textBox2.Location = new System.Drawing.Point(210, 165);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 20);
-            this.textBox2.TabIndex = 8;
+            this.textBoxCity.Location = new System.Drawing.Point(210, 165);
+            this.textBoxCity.Name = "textBoxCity";
+            this.textBoxCity.Size = new System.Drawing.Size(129, 20);
+            this.textBoxCity.TabIndex = 8;
             // 
-            // textBox3
+            // textBoxPostCode
             // 
-            this.textBox3.Location = new System.Drawing.Point(210, 191);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(129, 20);
-            this.textBox3.TabIndex = 9;
+            this.textBoxPostCode.Location = new System.Drawing.Point(210, 191);
+            this.textBoxPostCode.Name = "textBoxPostCode";
+            this.textBoxPostCode.Size = new System.Drawing.Size(129, 20);
+            this.textBoxPostCode.TabIndex = 9;
             // 
             // buttonSubmit
             // 
@@ -130,16 +130,17 @@ namespace UserDetails
             this.buttonSubmit.TabIndex = 10;
             this.buttonSubmit.Text = "Submit";
             this.buttonSubmit.UseVisualStyleBackColor = true;
+            this.buttonSubmit.Click += new System.EventHandler(this.buttonSubmit_Click);
             // 
             // FormAddressDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(544, 450);
             this.Controls.Add(this.buttonSubmit);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxPostCode);
+            this.Controls.Add(this.textBoxCity);
+            this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.textBoxSecondName);
             this.Controls.Add(this.textBoxFirstName);
             this.Controls.Add(this.labelPostCode);
@@ -163,9 +164,9 @@ namespace UserDetails
         private System.Windows.Forms.Label labelPostCode;
         private System.Windows.Forms.TextBox textBoxFirstName;
         private System.Windows.Forms.TextBox textBoxSecondName;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxAddress;
+        private System.Windows.Forms.TextBox textBoxCity;
+        private System.Windows.Forms.TextBox textBoxPostCode;
         private System.Windows.Forms.Button buttonSubmit;
     }
 }
