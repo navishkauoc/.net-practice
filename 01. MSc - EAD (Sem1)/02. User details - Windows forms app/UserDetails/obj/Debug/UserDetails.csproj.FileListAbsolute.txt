@@ -1,0 +1,9 @@
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\bin\Debug\UserDetails.exe.config
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\bin\Debug\UserDetails.exe
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\bin\Debug\UserDetails.pdb
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.csproj.AssemblyReference.cache
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.Properties.Resources.resources
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.csproj.GenerateResource.cache
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.csproj.CoreCompileInputs.cache
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.exe
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.pdb
