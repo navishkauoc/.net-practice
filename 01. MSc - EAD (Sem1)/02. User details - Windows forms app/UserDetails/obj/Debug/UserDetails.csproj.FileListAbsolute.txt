@@ -7,4 +7,4 @@ D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\0
 D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.csproj.CoreCompileInputs.cache
 D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.exe
 D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.pdb
-D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.Form1.resources
+D:\MSc\Semester 01\01. EAD (C)\Repositories\.net-practice\01. MSc - EAD (Sem1)\02. User details - Windows forms app\UserDetails\obj\Debug\UserDetails.FormMain.resources
