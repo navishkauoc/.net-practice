@@ -12,9 +12,21 @@ namespace PersonForm
 {
     public partial class Form1 : Form
     {
+
+        PersonWeb.PersonWeb service = new PersonWeb.PersonWeb();
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable dataTable = new DataTable();
+
+            dataTable = service.returnTable();
+
+            dataGridView1.DataSource = dataTable;
         }
     }
 }
